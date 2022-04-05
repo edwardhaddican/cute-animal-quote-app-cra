@@ -12,7 +12,8 @@ import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
 import { StaleWhileRevalidate } from 'workbox-strategies';
-const swUrl = `${process.env.PUBLIC_URL}/sw.js`
+// const swUrl = `${process.env.PUBLIC_URL}/sw.js`   //this was a test that did not work, maybe remove once PWA is working
+
 
 clientsClaim();
 
